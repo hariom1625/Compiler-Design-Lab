@@ -18,6 +18,7 @@ whitespace ([ ])+
 %%
 
 int main(){
+
 printf("\nEnter the string: \n");
 yylex();
 printf("The number of Vowel in entered string is: %d \n",vowel_count);
@@ -25,6 +26,7 @@ printf("The number of Consonants in entered string is: %d \n",consonant_count);
 printf("The number of Digits in entered string is: %d \n",digit_count);
 printf("The number of Whitespace in entered string is: %d \n",whitespace_count);
 return 0;
+
 }
 
 int yywrap(void){
